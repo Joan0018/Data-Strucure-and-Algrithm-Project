@@ -1,0 +1,1 @@
+package entity;/** * StockPurchase.java An immutable class that represents the purchase of one * share of stock. * * @author Frank M. Carrano * @version 2.0 */public class StockPurchase {  private double cost;  public StockPurchase(double costPerShare) {    cost = costPerShare;  }   public double getCostPerShare() {    return cost;  } } 
